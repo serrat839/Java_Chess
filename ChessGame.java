@@ -3,7 +3,6 @@ import matrix.*;
 
 public class ChessGame {
    public static void main(String[] args) throws Exception {
-      System.out.println("hello, world!");
       
       char[] whitePieces = new char[] {
          'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P',

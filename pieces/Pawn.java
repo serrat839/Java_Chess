@@ -2,10 +2,11 @@ package pieces;
 
 public class Pawn extends Piece {
    public Pawn() {
-      super('G',1,1);
-      System.out.print("piece type: ");
-      System.out.println(pieceType);
+      super('P',1,1);
    }
    
+   public Pawn(int rank, int column) {
+      super('P', rank, column);
+   }
    
 }

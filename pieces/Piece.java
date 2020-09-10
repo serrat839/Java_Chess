@@ -12,14 +12,14 @@ public class Piece {
       } else {
          pieceType = notation;
       }
-      System.out.println(pieceType);
    }
 
    public String toString() {
-      return Integer.toString(firstMove);
+      return "" + pieceType;
    }
    
    public boolean hasMoved() {
       return firstMove > 0;
-   }
+   }  
+   
 }
